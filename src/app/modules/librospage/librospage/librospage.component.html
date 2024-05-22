@@ -1,0 +1,13 @@
+<div class="libroscontainer">
+  <h1>Libros disponibles</h1>
+  <div class="grid-container-center">
+    <div class="grid-container">
+      <app-libro
+        *ngFor="let libro of libros"
+        [libro]="libro"
+        class="grid-item"
+      ></app-libro>
+    </div>
+  </div>
+  <button (click)="crearLibro()">Crear libro</button>
+</div>

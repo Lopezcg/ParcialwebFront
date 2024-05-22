@@ -1,0 +1,53 @@
+.libro-card {
+   
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    
+    max-width: 300px;
+    text-align: left;
+  }
+ 
+  
+  .libro-card h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .libro-card p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .libro-card .autor {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .libro-card .fecha {
+    color: #888;
+  }
+  
+  .libro-card .num-edicion {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .libro-card .precio {
+    font-weight: bold;
+    color: #009688; /* Puedes ajustar este color a tu gusto */
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 600px) {
+    .libro-card {
+      max-width: 100%;
+      padding: 15px;
+    }
+  
+    .libro-card h1 {
+      font-size: 1.2em;
+    }
+  }
+  
